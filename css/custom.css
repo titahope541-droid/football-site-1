@@ -1,0 +1,58 @@
+.team-vs {
+  display: flex;
+  background: linear-gradient(90deg, #A6CAEC 50%, #fff 50%);
+   color: #000 !important; /* makes all text inside white */
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+}
+
+.team-vs .score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  color: #111;
+  font-weight: bold;
+  font-size: 48px;
+  border-radius: 50%;
+  padding: 20px 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.team-1 {
+  background-color: #A6CAEC; /* navy */
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 20px;
+}
+
+.team-2 {
+  background-color: #fff; /* red */
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}
+
+.team-vs {
+  border-radius: 10px;
+  overflow: hidden; /* makes the rounded corners visible */
+}
+
+.team-vs .score {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #f1faee;
+  color: #111;
+  font-weight: bold;
+  font-size: 48px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+
